@@ -1,14 +1,15 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Lester profile banner</title>
-  <desc id="desc">Warm editorial banner with the name Lester and a short description about building calm, operator-friendly AI systems.</desc>
+  <desc id="desc">Warm editorial banner with the name Mitchell Lester, a short full-stack subtitle, and a Bloom Coffee storefront photo worked into the right panel.</desc>
   <defs>
     <linearGradient id="paperGlow" x1="130" y1="40" x2="1040" y2="320" gradientUnits="userSpaceOnUse">
       <stop stop-color="#FFF9F1"/>
       <stop offset="1" stop-color="#F1E6D4"/>
     </linearGradient>
-    <linearGradient id="panelGlow" x1="767" y1="56" x2="1093" y2="304" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#224E42"/>
-      <stop offset="1" stop-color="#16221B"/>
+    <linearGradient id="photoShade" x1="889" y1="56" x2="889" y2="288" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09110D" stop-opacity="0.12"/>
+      <stop offset="0.65" stop-color="#09110D" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#09110D" stop-opacity="0.62"/>
     </linearGradient>
     <filter id="shadow" x="86" y="26" width="1038" height="308" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
@@ -20,6 +21,9 @@
       <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
     </filter>
+    <clipPath id="photoClip">
+      <rect x="708" y="56" width="362" height="232" rx="30" />
+    </clipPath>
   </defs>
 
   <rect width="1200" height="360" fill="#EEE4D5"/>
@@ -41,33 +45,26 @@
 
   <g filter="url(#shadow)">
     <rect x="130" y="56" width="940" height="232" rx="30" fill="url(#paperGlow)"/>
-    <rect x="742" y="56" width="328" height="232" rx="30" fill="url(#panelGlow)"/>
+    <g clip-path="url(#photoClip)">
+      <rect x="708" y="56" width="362" height="232" fill="#101814"/>
+      <image href="./bloom-panel.jpg" x="708" y="56" width="362" height="232" preserveAspectRatio="xMidYMid slice"/>
+      <rect x="708" y="56" width="362" height="232" fill="url(#photoShade)"/>
+    </g>
   </g>
+
+  <rect x="708.5" y="56.5" width="361" height="231" rx="29.5" stroke="rgba(248,243,232,0.16)"/>
 
   <rect x="178" y="96" width="192" height="34" rx="17" fill="#16221B"/>
   <text x="207" y="118" fill="#F8F3E8" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.5">GITHUB PROFILE</text>
 
-  <text x="178" y="188" fill="#16221B" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700">Lester</text>
-  <text x="178" y="226" fill="#44524D" font-family="Arial, Helvetica, sans-serif" font-size="28">Building calm, operator-friendly AI systems.</text>
+  <text x="178" y="188" fill="#16221B" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Mitchell Lester</text>
+  <text x="178" y="226" fill="#44524D" font-family="Arial, Helvetica, sans-serif" font-size="26">Building full-stack products and integrations.</text>
 
   <rect x="178" y="246" width="320" height="20" rx="10" fill="#E6D9C8"/>
   <rect x="178" y="246" width="198" height="20" rx="10" fill="#C66B38"/>
 
-  <text x="786" y="115" fill="#F8F3E8" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.8">CURRENT THEMES</text>
+  <rect x="734" y="84" width="126" height="30" rx="15" fill="rgba(9,17,13,0.68)"/>
+  <text x="759" y="103" fill="#F8F3E8" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1.6">BLOOM COFFEE</text>
 
-  <g>
-    <circle cx="789" cy="152" r="6" fill="#F1A35B"/>
-    <text x="810" y="158" fill="#F8F3E8" font-family="Arial, Helvetica, sans-serif" font-size="22">automation</text>
-  </g>
-  <g>
-    <circle cx="789" cy="193" r="6" fill="#88D3B0"/>
-    <text x="810" y="199" fill="#F8F3E8" font-family="Arial, Helvetica, sans-serif" font-size="22">agent tooling</text>
-  </g>
-  <g>
-    <circle cx="789" cy="234" r="6" fill="#91BCFF"/>
-    <text x="810" y="240" fill="#F8F3E8" font-family="Arial, Helvetica, sans-serif" font-size="22">product systems</text>
-  </g>
-
-  <path d="M742 257H1070" stroke="rgba(248,243,232,0.22)"/>
-  <text x="786" y="278" fill="#D3CABB" font-family="Arial, Helvetica, sans-serif" font-size="14">Clear interfaces. Readable work.</text>
+  <text x="736" y="248" fill="#F8F3E8" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="0.2">Coffee roots.</text>
 </svg>
