@@ -10,11 +10,11 @@
 
 ## About
 
-I’m Mitchell Lester, a full stack developer currently working at me&u and building side projects through Bloom Coffee Industries.
+I’m Mitchell Lester, a full stack developer at me&u. Outside of work, I’m usually building side projects through Bloom Coffee Industries or tinkering with product ideas of my own.
 
-I’ve spent the last 5+ years building full stack products across hospitality, property, and drone technology. My work spans front-end and back-end development, with a focus on TypeScript, JavaScript, Angular, React, Java, Spring Boot, Django, REST APIs, and user-centered product development.
+Over the last 5+ years I’ve worked across hospitality, property, and drone technology, usually in roles where I can move between front-end, back-end, and integrations depending on what the product needs.
 
-Most of my recent work lives in private repositories, so this profile is a compact snapshot of the stack, domains, and kinds of systems I work on.
+Most of what I work on lives in private repositories, so this profile is really just a snapshot of the stack, domains, and kinds of systems I enjoy building.
 
 ## What I Work On
 

@@ -1,6 +1,6 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Lester profile banner</title>
-  <desc id="desc">Warm editorial banner with the name Mitchell Lester, a short full-stack subtitle, and a Bloom Coffee storefront photo worked into the right panel.</desc>
+  <desc id="desc">Warm editorial banner with the name Mitchell Lester, a more personal full-stack subtitle, and a Bloom Coffee storefront photo worked into the right panel.</desc>
   <defs>
     <linearGradient id="paperGlow" x1="130" y1="40" x2="1040" y2="320" gradientUnits="userSpaceOnUse">
       <stop stop-color="#FFF9F1"/>
@@ -47,7 +47,7 @@
     <rect x="130" y="56" width="940" height="232" rx="30" fill="url(#paperGlow)"/>
     <g clip-path="url(#photoClip)">
       <rect x="708" y="56" width="362" height="232" fill="#101814"/>
-      <image href="./bloom-panel.jpg" x="708" y="56" width="362" height="232" preserveAspectRatio="xMidYMid slice"/>
+      <image href="./bloom-panel-mincrop.jpg" x="708" y="56" width="362" height="232" preserveAspectRatio="none"/>
       <rect x="708" y="56" width="362" height="232" fill="url(#photoShade)"/>
     </g>
   </g>
@@ -58,7 +58,7 @@
   <text x="207" y="118" fill="#F8F3E8" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.5">GITHUB PROFILE</text>
 
   <text x="178" y="188" fill="#16221B" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Mitchell Lester</text>
-  <text x="178" y="226" fill="#44524D" font-family="Arial, Helvetica, sans-serif" font-size="26">Building full-stack products and integrations.</text>
+  <text x="178" y="226" fill="#44524D" font-family="Arial, Helvetica, sans-serif" font-size="26">Building products I care about.</text>
 
   <rect x="178" y="246" width="320" height="20" rx="10" fill="#E6D9C8"/>
   <rect x="178" y="246" width="198" height="20" rx="10" fill="#C66B38"/>
@@ -66,5 +66,5 @@
   <rect x="734" y="84" width="126" height="30" rx="15" fill="rgba(9,17,13,0.68)"/>
   <text x="759" y="103" fill="#F8F3E8" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1.6">BLOOM COFFEE</text>
 
-  <text x="736" y="248" fill="#F8F3E8" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="0.2">Coffee roots.</text>
+  <text x="736" y="248" fill="#F8F3E8" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="0.2">Still part of the story.</text>
 </svg>
